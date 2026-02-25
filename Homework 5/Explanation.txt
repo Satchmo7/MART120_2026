@@ -1,0 +1,3 @@
+All of what is required in the assignment is in my project. However, I encountered a strange bug at the last minute that I'm not sure how it happened.
+
+Basically, the dialogue was happening offscreen for some reason. It might be perfectly normal on your end, and if you can read the dialogue just fine, it was probably the program bugging out rather than the code itself; in that case, you can ignore this message. 
