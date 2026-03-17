@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Chinese Government</title>
+
+<link rel="stylesheet" href="Page Style.css">
+
+
+<script>
+    function myfunction()
+    {
+        alert('Your secret data has been sent to the Chinese government. Also, your computer has virus.');
+    }
+</script>
+
+</head>
+
+<body>
+
+<form action="nextPage.html" type="Post">
+    First Name: <input type="text" id="fName" required>
+    <br><br>
+    Last Name: <input type="text" id="lName" required>
+    <br><br>
+    Email Address: <input type="text" id="email" required>
+    <br>
+    <h2>Do you accept the fact that I am a totally trustworthy individual that values <br>
+    your privacy more than anything and that your personal information won't <br>
+    get sent to the Chinese government?</h2>
+    <input type="radio" name="agreement" value="Yes">Yes
+    <br>
+    <input type="radio" name="agreement" value="Absolutely">Absolutely
+    <br>
+    <br>
+    <button id="button" onclick="myfunction()" type="button">Submit</button>
+  </form>
+
+<br>
+
+<details>
+    <summary>Other Pages</summary>
+         <ul>
+            <li><a href="Main Page">Return Home</a></li>
+            <li><a href="Short Story.html">Short Story</a></li>    
+        </ul>
+</details>
+
+</body>
+
+</html>
